@@ -1,4 +1,4 @@
-void FillNewArray(string[] tempArray, string[] oldArray)
+﻿void FillNewArray(string[] tempArray, string[] oldArray)
 {
     Console.Write("[");
     int i = 0;
@@ -41,7 +41,7 @@ for (i = 0; i < numberOfArray; i++)
         count++;
     }
 }
-Console.WriteLine($"Новый массив будет состоять из {count} элементов ");
+Console.WriteLine($"Новый массив состоит из {count} элементов ");
 string[] newArray = new string[count];
 Console.WriteLine();    
 FillNewArray(newArray, arrayOfString);
